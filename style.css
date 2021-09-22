@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#head{
+    background-color: blue;
+    height: 308px;
+    position: relative;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 240px;
+}
+#body{
+    position: relative;
+    width: 100%;
+    
+}
+.relative{
+    position: relative;
+    display: inline-block;
+    height: 420px;
+}
+.relative:last-of-type{
+    position: absolute;
+    right: 0px;
+    height: 420px;
+}
+#first_div{
+    border-radius: 12px;
+    padding: 30px 60px 30px 30px;
+    position: absolute;
+    background: rgba(255,255,255,0.4);
+    backdrop-filter: blur(5px);
+    width: 373px;
+    left: 45px;
+    bottom: 30px;
+}
+#second_div{
+    bottom: 50px;
+    border-radius: 12px;
+    padding: 30px 60px 30px 30px;
+    position: absolute;
+    background: rgba(255,255,255,0.4);
+    backdrop-filter: blur(5px);
+    width: fit-content;
+}
